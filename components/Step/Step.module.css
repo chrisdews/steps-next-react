@@ -1,0 +1,42 @@
+.stepContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoContainer{
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 1em;
+    width: 100%;
+    height: 20vw;
+    max-height: 250px;
+    width: 20vw;
+    max-width: 250px;
+    display:flex;
+}
+
+.logoContainer h5{
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logoName{
+    text-align: center;
+    overflow: hidden;
+}
+
+.position1 {
+    grid-column: 1;
+}
+
+.position3 {
+    grid-column: 3;
+}
+
+.position5 {
+    grid-column: 5;
+}

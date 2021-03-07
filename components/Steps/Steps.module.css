@@ -1,0 +1,10 @@
+.stepsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 1fr;
+  max-width: var(--layout-width);
+  margin: 0 auto;
+  padding: 0 2em;
+  width: 100%;
+  margin-top: 2em;
+}
